@@ -11,11 +11,11 @@ sleep 20
 
 echo "System should now be reachable via RDP."
 
-#############################################
+############Make executable#################################
 
 chmod +x wakepc.sh
 
-#########################################
+#############Optional alias############################
 
 
 alias wakepc="~/wakepc.sh"
