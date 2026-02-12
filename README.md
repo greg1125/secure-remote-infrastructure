@@ -169,17 +169,17 @@ Raspberry Pi OS Lite requires SSH to be enabled manually or via Imager advanced 
   Used network scanning tools to identify the correct LAN IP.
 
 **RDP Not Listening
-**
+** - 
   Verified with:
   
   netstat -an | find "3389"
 
 **Windows Hello PIN Issue
-**
+** - 
 RDP requires actual account password, not PIN authentication.
 
 **Subnet Routing Not Working
-**
+** - 
 Resolved by enabling:
 
   --accept-routes
